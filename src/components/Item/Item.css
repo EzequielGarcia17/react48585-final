@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{font-family: 'Source Sans Pro', sans-serif;
+}
+
+.item{
+background-color:#ff5f41;
+margin-bottom: 40px;
+}
+
+.grupo{
+    width:33%;
+}
+
+.card-body{
+    width: 90%;
+}
+
+.card-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.subt{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.price{
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cta {
+    height: 50px;
+    min-width: 160px;
+    background-color: #64d5c1;
+    border: 0;
+    border-radius: 16px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.cta:hover {
+    background-color: #fff;
+    color: #ff5f41;
+}
+.hero{
+    max-height: 200px;
+    height: 100%;
+    object-fit: cover;
+}
